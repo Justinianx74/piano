@@ -1,8 +1,7 @@
 # libraries for controlling lights
-import board
-import neopixel
+from superController import superController
 
-class RainbowController:
+class RainbowController(superController):
     DOWN = 144
 
     def __init__(self, num_lights):
